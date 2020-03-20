@@ -1,0 +1,65 @@
+.menubar{
+  background-color: black;
+  height: 50px;
+  position: absolute; 
+  color: grey; 
+  font-size: 20px;
+  width: 100%;
+}
+.main{
+  position: absolute;
+  left: 420px; 
+  top: 10%; 
+  width: 400px;
+}
+.top{
+  position: absolute;
+  padding-bottom: 400px;
+  padding-left: 5%;
+  padding-top: 15px;
+
+
+}
+p{
+  font-size: 30px;
+}
+#adder{
+  overflow: hidden;
+  border-radius: 3px;
+  border: 1px solid gray;
+  padding: 6px;
+  width: 500px;
+  padding-bottom:8px;
+  padding-top:8px;
+  padding-left:10px;
+  padding-right:10px;
+  margin:6px;
+  
+  
+}
+#addbut{
+  background-color:rgb(60, 117, 170); 
+  border-radius: 5px; 
+  color:white; 
+  font-size: 14px; 
+  padding: 5px;
+  width: 50px; 
+  height: 35px; 
+}
+
+.display
+{
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 3px;
+  width: 500px;
+  height: 50px;
+  
+
+}
+ul{
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
