@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Categories{% endblock %}
+
+{% block content %}
+     {% if category_list %}
+          {% for c in category_list %}
+               <div>
+                     <a href = "{% url 'api:detail' c.id %}">{{c.id}} - {{c.name}}</a>
+               </div>
+
+          {% endfor %}
+     {% else %}
+          No categories yet!
+     {% endif %}
+{% endblock %}

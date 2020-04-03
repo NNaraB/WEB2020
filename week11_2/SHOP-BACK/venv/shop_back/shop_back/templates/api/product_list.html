@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}PRODUCTS{% endblock %}
+<h1>asdasdasd</h1>
+{% block content %}
+     {% if product_list %}
+          {% for p in product_list %}
+               <div>
+                     <a href = "{% url 'api:product_detail' p.id %}">{{p.id}} - {{p.name}}</a>
+               </div>
+
+          {% endfor %}
+     {% else %}
+          No products yet!
+     {% endif %}
+{% endblock %}
